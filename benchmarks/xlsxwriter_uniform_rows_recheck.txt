@@ -1,0 +1,23 @@
+Uniform row-height focused recheck
+
+Real taxi data, complete 6,433 x 14 workbook creation, 333 comments.
+20 timing runs/version/case: five on each rotating two-physical-core pair.
+Five separate allocation runs/version/case. Repository source unchanged.
+Each archive member matches byte-for-byte. Setup, patch installation and checks are outside timing.
+This is a constructed report using public records, not a benchmark of a deployed application.
+
+| Custom header height | CPU mask | Base time | Proposed time | Speed |
+|---|---|---:|---:|---|
+| False | 0x300 | 1948.127 ms | 1549.126 ms | 1.258x faster |
+| False | 0xc00 | 1924.411 ms | 1523.041 ms | 1.264x faster |
+| False | 0xf | 585.558 ms | 429.727 ms | 1.363x faster |
+| False | 0xf0 | 623.529 ms | 488.204 ms | 1.277x faster |
+
+Peak allocation, custom header height=False: base 23.406266 MiB; proposed 23.406320 MiB.
+
+| True | 0x300 | 1965.328 ms | 1955.616 ms | 1.005x faster |
+| True | 0xc00 | 1967.865 ms | 1955.038 ms | 1.007x faster |
+| True | 0xf | 627.325 ms | 655.748 ms | 1.045x slower |
+| True | 0xf0 | 635.874 ms | 603.905 ms | 1.053x faster |
+
+Peak allocation, custom header height=True: base 23.406476 MiB; proposed 23.406570 MiB.

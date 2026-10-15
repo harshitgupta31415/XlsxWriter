@@ -1,0 +1,239 @@
+{
+  "metadata": {
+    "python": "3.15.0",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "base_commit": "5d4606d89a955226d2d0825a0f44309043ae7251",
+    "repeats": 20,
+    "memory_repeats": 5,
+    "data_url": "https://raw.githubusercontent.com/mwaskom/seaborn-data/71e2436a092d714350de0fc409ca8a8714e7e78f/taxis.csv",
+    "data_sha256": "08d6d71784dbaa2651fee37fc03389754194c05d72d2d19cbc2c799dea6ac09d",
+    "source_sha256": "df5f2149489190e52a5a4627a79399ae8c6bc830a781078613f8b108f0b9fd22",
+    "script_sha256": "0a47936b7a86783d3f3c66b49d4fcc27da1e589d857c3b4cb6ed8946b81eb609",
+    "core_masks": [
+      "0xf",
+      "0xf0",
+      "0x300",
+      "0xc00"
+    ],
+    "started_utc": "2026-10-15T16:46:39.289923+00:00",
+    "finished_utc": "2026-10-15T16:50:27.419385+00:00"
+  },
+  "results": [
+    {
+      "rows": 6433,
+      "height": 24,
+      "comments": true,
+      "custom_row": false,
+      "comment_count": 333,
+      "masks": [
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf",
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf",
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf",
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf",
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf"
+      ],
+      "archive_members": {
+        "[Content_Types].xml": "f06d63cc15b2aa24a73334d61b9ef8e20b9c8ea3736de74f1bc1b92cf869f88e",
+        "_rels/.rels": "1285b20099c64699001f9d90ea040ca1c177fa99bc3ae8a841128874820f01a4",
+        "xl/_rels/workbook.xml.rels": "596e47c094f3062e266034ee698571b56b247550b9e1035f0300d54d2f0692b2",
+        "xl/worksheets/sheet1.xml": "467c2ad450a39b87858095b76bd5ec74495badf1edeb536c7502bd145c4367b9",
+        "xl/workbook.xml": "fa7586e82f88251b0010fcbcd3a7c9a4103f8e0129e37121af66a148590cd0fa",
+        "xl/drawings/vmlDrawing1.vml": "7c99e405035743a27fd4aa3fdce566ac608f55dbe39a153c7c7cdd046c836078",
+        "xl/comments1.xml": "5477b69c16d7a3a83a7f536a6315a272f3858f594e3834a77cb4622d248cff90",
+        "xl/sharedStrings.xml": "130ae3ea93a86cc156a0573246e4997066dc0a5cc9ced47b459fef005f4679bf",
+        "xl/styles.xml": "c7ad07a6e85edd8cc3233248e6c38d5c3e347c088deb7ed3c18371fe15f3c1c3",
+        "xl/theme/theme1.xml": "75104b2164c20dab2578383d827deac3a7eec077c3f7c99a4099a551fdebb134",
+        "xl/worksheets/_rels/sheet1.xml.rels": "b99cdda770020e482c5af5ebe23628a036738c72d5bf3a3522861317df9fbe03",
+        "docProps/core.xml": "62e1d5ff3a6b338b14dc40685f312a939671fc268cf3126e9f76ba696c6c044b",
+        "docProps/app.xml": "e0285d0abfbe7e50bc132afc800277f6d2a044305b33d346fbe9fc6a2de59dea"
+      },
+      "base": {
+        "time_ns": [
+          368455500,
+          1952864200,
+          1814926600,
+          618695800,
+          741026600,
+          2058970400,
+          1862677300,
+          604760200,
+          747405700,
+          1890936400,
+          1881506000,
+          650621200,
+          610133700,
+          1883566900,
+          1882261900,
+          514696500,
+          705924900,
+          1986709800,
+          2524209600,
+          683724700
+        ],
+        "peak_bytes": [
+          24543051,
+          24543051,
+          24543045,
+          24542989,
+          24542858
+        ]
+      },
+      "pr": {
+        "time_ns": [
+          481907300,
+          1521745200,
+          1478928200,
+          472070500,
+          472322100,
+          1482533100,
+          1586398500,
+          431994400,
+          474628300,
+          1482995300,
+          1492828200,
+          497282100,
+          447815300,
+          1500690200,
+          1479860700,
+          370268600,
+          500506200,
+          1523497800,
+          1968852200,
+          501490000
+        ],
+        "peak_bytes": [
+          24542911,
+          24542858,
+          24542858,
+          24542919,
+          24542881
+        ]
+      }
+    },
+    {
+      "rows": 6433,
+      "height": 24,
+      "comments": true,
+      "custom_row": true,
+      "comment_count": 333,
+      "masks": [
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf",
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf",
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf",
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf",
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf"
+      ],
+      "archive_members": {
+        "[Content_Types].xml": "f06d63cc15b2aa24a73334d61b9ef8e20b9c8ea3736de74f1bc1b92cf869f88e",
+        "_rels/.rels": "1285b20099c64699001f9d90ea040ca1c177fa99bc3ae8a841128874820f01a4",
+        "xl/_rels/workbook.xml.rels": "596e47c094f3062e266034ee698571b56b247550b9e1035f0300d54d2f0692b2",
+        "xl/worksheets/sheet1.xml": "52f456edb8892b9236290c74bd164ebdd6d14555af4437773179acef948139b6",
+        "xl/workbook.xml": "fa7586e82f88251b0010fcbcd3a7c9a4103f8e0129e37121af66a148590cd0fa",
+        "xl/drawings/vmlDrawing1.vml": "9d3c29f91a0b4687476632ed9d20e4bcceb0ab68a247edf44c20fe721b4eeb8e",
+        "xl/comments1.xml": "5477b69c16d7a3a83a7f536a6315a272f3858f594e3834a77cb4622d248cff90",
+        "xl/sharedStrings.xml": "130ae3ea93a86cc156a0573246e4997066dc0a5cc9ced47b459fef005f4679bf",
+        "xl/styles.xml": "c7ad07a6e85edd8cc3233248e6c38d5c3e347c088deb7ed3c18371fe15f3c1c3",
+        "xl/theme/theme1.xml": "75104b2164c20dab2578383d827deac3a7eec077c3f7c99a4099a551fdebb134",
+        "xl/worksheets/_rels/sheet1.xml.rels": "b99cdda770020e482c5af5ebe23628a036738c72d5bf3a3522861317df9fbe03",
+        "docProps/core.xml": "62e1d5ff3a6b338b14dc40685f312a939671fc268cf3126e9f76ba696c6c044b",
+        "docProps/app.xml": "e0285d0abfbe7e50bc132afc800277f6d2a044305b33d346fbe9fc6a2de59dea"
+      },
+      "base": {
+        "time_ns": [
+          767500100,
+          1974903100,
+          1875453300,
+          715651200,
+          925102800,
+          1927808700,
+          1897992900,
+          569722400,
+          541664800,
+          1897865400,
+          1855485800,
+          581675500,
+          570733100,
+          1941074800,
+          2327919800,
+          788671000,
+          796651600,
+          2359125000,
+          2595724200,
+          750245900
+        ],
+        "peak_bytes": [
+          24543334,
+          24543501,
+          24543452,
+          24543391,
+          24543469
+        ]
+      },
+      "pr": {
+        "time_ns": [
+          729082100,
+          2617746500,
+          1970337500,
+          789718000,
+          875562700,
+          1931426500,
+          1929510500,
+          560051900,
+          612873000,
+          1888007100,
+          1900530800,
+          604687000,
+          595520500,
+          2245788600,
+          1922485200,
+          679954100,
+          863385100,
+          2831659500,
+          2860526800,
+          548199600
+        ],
+        "peak_bytes": [
+          24543523,
+          24543474,
+          24543415,
+          24543415,
+          24543381
+        ]
+      }
+    }
+  ],
+  "verification": {
+    "geometry_and_error_comparisons": 1072,
+    "matching_workbooks": 100
+  }
+}

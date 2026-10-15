@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "python": "3.15.0",
+    "repeats": 20,
+    "memory_repeats": 5,
+    "data_url": "https://raw.githubusercontent.com/mwaskom/seaborn-data/71e2436a092d714350de0fc409ca8a8714e7e78f/taxis.csv",
+    "data_sha256": "08d6d71784dbaa2651fee37fc03389754194c05d72d2d19cbc2c799dea6ac09d",
+    "base_commit": "5d4606d89a955226d2d0825a0f44309043ae7251",
+    "proposal_transform": "def proposal():\n    tree = ast.parse(textwrap.dedent(inspect.getsource(probe.ORIGINAL)))\n    hits = 0\n    for node in ast.walk(tree):\n        if isinstance(node, ast.If) and isinstance(node.test, ast.Attribute) and node.test.attr == 'row_size_changed':\n            branch = ast.parse('if not self.row_sizes:\\n    y_abs += self.default_row_height * len(range(row_start))\\nelse:\\n    pass').body[0]\n            branch.orelse = node.body\n            node.body = [branch]\n            hits += 1\n    assert hits == 1\n    namespace = dict(probe.ORIGINAL.__globals__)\n    exec(compile(ast.fix_missing_locations(tree), '<uniform rows recheck>', 'exec'), namespace)\n    return namespace[probe.ORIGINAL.__name__]\n",
+    "script_sha256": "607fb26f52d9e9e3038c171d02ce68e8c8af83e8be4e2099f0a1a520cc47b158"
+  },
+  "geometry_comparisons": 1050,
+  "error_comparisons": 22,
+  "results": [
+    {
+      "rows": 6433,
+      "height": 24,
+      "comments": true,
+      "custom_row": false,
+      "masks": [
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf",
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf",
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf",
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf",
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf"
+      ],
+      "base": {
+        "time_ns": [
+          394568700,
+          2713840900,
+          2120456200,
+          604138700,
+          623528600,
+          1948127000,
+          1911079600,
+          573894600,
+          756928100,
+          2256112700,
+          2096807300,
+          563369600,
+          580042300,
+          1913741700,
+          1924410700,
+          585558500,
+          633677000,
+          1878127800,
+          1897834300,
+          601655900
+        ],
+        "peak_bytes": [
+          24543273,
+          24543503,
+          24543192,
+          24543072,
+          24543249
+        ]
+      },
+      "proposal": {
+        "time_ns": [
+          293728700,
+          1549126400,
+          1555970900,
+          426942800,
+          488203500,
+          1562998000,
+          1463779000,
+          391958100,
+          598509200,
+          1657128100,
+          1664740500,
+          429726900,
+          576649700,
+          1478089300,
+          1523040500,
+          440853700,
+          457092700,
+          1510476300,
+          1505157400,
+          459480000
+        ],
+        "peak_bytes": [
+          24543581,
+          24543447,
+          24543254,
+          24543183,
+          24543305
+        ]
+      }
+    },
+    {
+      "rows": 6433,
+      "height": 24,
+      "comments": true,
+      "custom_row": true,
+      "masks": [
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf",
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf",
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf",
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf",
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf"
+      ],
+      "base": {
+        "time_ns": [
+          635873700,
+          2171612000,
+          1935188000,
+          605377800,
+          550342800,
+          1949263400,
+          1914864200,
+          593576100,
+          652957000,
+          1936118700,
+          1967865200,
+          655767600,
+          600922200,
+          1965328300,
+          2498572500,
+          1161334300,
+          1141736400,
+          2428201400,
+          1985567800,
+          627324700
+        ],
+        "peak_bytes": [
+          24543326,
+          24543617,
+          24543609,
+          24543284,
+          24543469
+        ]
+      },
+      "proposal": {
+        "time_ns": [
+          682395300,
+          1955615600,
+          1927731400,
+          590490100,
+          601952300,
+          1954485600,
+          1955037900,
+          607204400,
+          585030200,
+          1939434300,
+          1959488400,
+          655748400,
+          603905500,
+          1976066700,
+          2070744200,
+          1802221600,
+          812565200,
+          2097344100,
+          1897244300,
+          737911900
+        ],
+        "peak_bytes": [
+          24543568,
+          24543523,
+          24543577,
+          24543577,
+          24543337
+        ]
+      }
+    }
+  ]
+}

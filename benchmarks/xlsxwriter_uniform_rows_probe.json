@@ -1,0 +1,385 @@
+{
+  "metadata": {
+    "python": "3.15.0",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "commit": "5d4606d89a955226d2d0825a0f44309043ae7251",
+    "data_url": "https://raw.githubusercontent.com/mwaskom/seaborn-data/71e2436a092d714350de0fc409ca8a8714e7e78f/taxis.csv",
+    "data_sha256": "08d6d71784dbaa2651fee37fc03389754194c05d72d2d19cbc2c799dea6ac09d",
+    "repeats": 5,
+    "cores": [
+      "0xf",
+      "0xf0",
+      "0x300",
+      "0xc00"
+    ],
+    "started_utc": "2026-10-15T16:17:42.466945+00:00",
+    "finished_utc": "2026-10-15T16:23:13.583118+00:00"
+  },
+  "geometry_comparisons": 1050,
+  "results": [
+    {
+      "rows": 1000,
+      "height": 24,
+      "comments": true,
+      "custom_row": false,
+      "comment_count": 54,
+      "output_sha256": {
+        "[Content_Types].xml": "f06d63cc15b2aa24a73334d61b9ef8e20b9c8ea3736de74f1bc1b92cf869f88e",
+        "_rels/.rels": "1285b20099c64699001f9d90ea040ca1c177fa99bc3ae8a841128874820f01a4",
+        "xl/_rels/workbook.xml.rels": "596e47c094f3062e266034ee698571b56b247550b9e1035f0300d54d2f0692b2",
+        "xl/worksheets/sheet1.xml": "5f7cde72d9befadbd62197220b12e1cb8b455d1f6a1aec7814a224fc44476f66",
+        "xl/workbook.xml": "1b80a43db225bb40da465151598e0f96801ef96e41f9a9e1b1e7eaebf723be76",
+        "xl/drawings/vmlDrawing1.vml": "c0f8b1ef5690c7d3b394009e7ca51a0f19335c40e3432d5dcab6246753b32a63",
+        "xl/comments1.xml": "6ba8896b18c84a7e1dc15c8f1300391a793007d6e3327cd6cab39b31568c9043",
+        "xl/sharedStrings.xml": "4cdf84ca55d06a2bdb3dda87d89f5d26f38480735d9c765133796467d8deccfe",
+        "xl/styles.xml": "c7ad07a6e85edd8cc3233248e6c38d5c3e347c088deb7ed3c18371fe15f3c1c3",
+        "xl/theme/theme1.xml": "75104b2164c20dab2578383d827deac3a7eec077c3f7c99a4099a551fdebb134",
+        "xl/worksheets/_rels/sheet1.xml.rels": "b99cdda770020e482c5af5ebe23628a036738c72d5bf3a3522861317df9fbe03",
+        "docProps/core.xml": "62e1d5ff3a6b338b14dc40685f312a939671fc268cf3126e9f76ba696c6c044b",
+        "docProps/app.xml": "e0285d0abfbe7e50bc132afc800277f6d2a044305b33d346fbe9fc6a2de59dea"
+      },
+      "base": {
+        "time_ns": [
+          237693700,
+          246719600,
+          99466000,
+          70955700,
+          263097000
+        ],
+        "peak_bytes": [
+          3798752,
+          3798464,
+          3798310,
+          3798409,
+          3798527
+        ]
+      },
+      "proposal": {
+        "time_ns": [
+          234929900,
+          217814800,
+          86576100,
+          111665200,
+          248678400
+        ],
+        "peak_bytes": [
+          3798793,
+          3798627,
+          3798476,
+          3798521,
+          3798477
+        ]
+      },
+      "masks": [
+        "0x300",
+        "0xc00",
+        "0xf",
+        "0xf0",
+        "0x300"
+      ]
+    },
+    {
+      "rows": 3000,
+      "height": 24,
+      "comments": true,
+      "custom_row": false,
+      "comment_count": 140,
+      "output_sha256": {
+        "[Content_Types].xml": "f06d63cc15b2aa24a73334d61b9ef8e20b9c8ea3736de74f1bc1b92cf869f88e",
+        "_rels/.rels": "1285b20099c64699001f9d90ea040ca1c177fa99bc3ae8a841128874820f01a4",
+        "xl/_rels/workbook.xml.rels": "596e47c094f3062e266034ee698571b56b247550b9e1035f0300d54d2f0692b2",
+        "xl/worksheets/sheet1.xml": "97e582e5c7aaf75c5842bfd0b3f85f94d1153c0a9be1e071c2d7d226c360706f",
+        "xl/workbook.xml": "8e0e38d7651f687680e38b09c565be133ac3372ec116632ed6491a6c53678210",
+        "xl/drawings/vmlDrawing1.vml": "346923b2d511713944616e9845220bcffc53c33a8ed9fdc99c061aa9d896f5d2",
+        "xl/comments1.xml": "b6eb527a4e5e88ea91cef0d681f00255499a05de17d3f5b304d37a8b37db4d86",
+        "xl/sharedStrings.xml": "147d4d90f5958f65c98b55ae273e4c05f83e730a4bdee68245213c023c896078",
+        "xl/styles.xml": "c7ad07a6e85edd8cc3233248e6c38d5c3e347c088deb7ed3c18371fe15f3c1c3",
+        "xl/theme/theme1.xml": "75104b2164c20dab2578383d827deac3a7eec077c3f7c99a4099a551fdebb134",
+        "xl/worksheets/_rels/sheet1.xml.rels": "b99cdda770020e482c5af5ebe23628a036738c72d5bf3a3522861317df9fbe03",
+        "docProps/core.xml": "62e1d5ff3a6b338b14dc40685f312a939671fc268cf3126e9f76ba696c6c044b",
+        "docProps/app.xml": "e0285d0abfbe7e50bc132afc800277f6d2a044305b33d346fbe9fc6a2de59dea"
+      },
+      "base": {
+        "time_ns": [
+          217300400,
+          209657500,
+          751482000,
+          773182600,
+          214781500
+        ],
+        "peak_bytes": [
+          11392669,
+          11392410,
+          11392492,
+          11392459,
+          11392543
+        ]
+      },
+      "proposal": {
+        "time_ns": [
+          179518200,
+          179969900,
+          696100100,
+          704712800,
+          220298600
+        ],
+        "peak_bytes": [
+          11392621,
+          11392593,
+          11392405,
+          11392653,
+          11392621
+        ]
+      },
+      "masks": [
+        "0xf",
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf"
+      ]
+    },
+    {
+      "rows": 6433,
+      "height": 24,
+      "comments": true,
+      "custom_row": false,
+      "comment_count": 333,
+      "output_sha256": {
+        "[Content_Types].xml": "f06d63cc15b2aa24a73334d61b9ef8e20b9c8ea3736de74f1bc1b92cf869f88e",
+        "_rels/.rels": "1285b20099c64699001f9d90ea040ca1c177fa99bc3ae8a841128874820f01a4",
+        "xl/_rels/workbook.xml.rels": "596e47c094f3062e266034ee698571b56b247550b9e1035f0300d54d2f0692b2",
+        "xl/worksheets/sheet1.xml": "467c2ad450a39b87858095b76bd5ec74495badf1edeb536c7502bd145c4367b9",
+        "xl/workbook.xml": "fa7586e82f88251b0010fcbcd3a7c9a4103f8e0129e37121af66a148590cd0fa",
+        "xl/drawings/vmlDrawing1.vml": "7c99e405035743a27fd4aa3fdce566ac608f55dbe39a153c7c7cdd046c836078",
+        "xl/comments1.xml": "5477b69c16d7a3a83a7f536a6315a272f3858f594e3834a77cb4622d248cff90",
+        "xl/sharedStrings.xml": "130ae3ea93a86cc156a0573246e4997066dc0a5cc9ced47b459fef005f4679bf",
+        "xl/styles.xml": "c7ad07a6e85edd8cc3233248e6c38d5c3e347c088deb7ed3c18371fe15f3c1c3",
+        "xl/theme/theme1.xml": "75104b2164c20dab2578383d827deac3a7eec077c3f7c99a4099a551fdebb134",
+        "xl/worksheets/_rels/sheet1.xml.rels": "b99cdda770020e482c5af5ebe23628a036738c72d5bf3a3522861317df9fbe03",
+        "docProps/core.xml": "62e1d5ff3a6b338b14dc40685f312a939671fc268cf3126e9f76ba696c6c044b",
+        "docProps/app.xml": "e0285d0abfbe7e50bc132afc800277f6d2a044305b33d346fbe9fc6a2de59dea"
+      },
+      "base": {
+        "time_ns": [
+          1856451900,
+          1836109100,
+          624889600,
+          530309300,
+          2026111000
+        ],
+        "peak_bytes": [
+          24543051,
+          24543013,
+          24542991,
+          24542748,
+          24542894
+        ]
+      },
+      "proposal": {
+        "time_ns": [
+          1531870700,
+          1476142500,
+          457158400,
+          437818200,
+          1568023100
+        ],
+        "peak_bytes": [
+          24542856,
+          24543002,
+          24542912,
+          24542941,
+          24542686
+        ]
+      },
+      "masks": [
+        "0x300",
+        "0xc00",
+        "0xf",
+        "0xf0",
+        "0x300"
+      ]
+    },
+    {
+      "rows": 6433,
+      "height": null,
+      "comments": true,
+      "custom_row": false,
+      "comment_count": 333,
+      "output_sha256": {
+        "[Content_Types].xml": "f06d63cc15b2aa24a73334d61b9ef8e20b9c8ea3736de74f1bc1b92cf869f88e",
+        "_rels/.rels": "1285b20099c64699001f9d90ea040ca1c177fa99bc3ae8a841128874820f01a4",
+        "xl/_rels/workbook.xml.rels": "596e47c094f3062e266034ee698571b56b247550b9e1035f0300d54d2f0692b2",
+        "xl/worksheets/sheet1.xml": "11d00d11b4d7ef1db1e14d5ae1e030bf78f220cf6278d6013f45b7896a3871bd",
+        "xl/workbook.xml": "fa7586e82f88251b0010fcbcd3a7c9a4103f8e0129e37121af66a148590cd0fa",
+        "xl/drawings/vmlDrawing1.vml": "dbd1efc869cad4e522777a2e4b805555ca421c9c6fb454a06fe40bb820715455",
+        "xl/comments1.xml": "5477b69c16d7a3a83a7f536a6315a272f3858f594e3834a77cb4622d248cff90",
+        "xl/sharedStrings.xml": "130ae3ea93a86cc156a0573246e4997066dc0a5cc9ced47b459fef005f4679bf",
+        "xl/styles.xml": "c7ad07a6e85edd8cc3233248e6c38d5c3e347c088deb7ed3c18371fe15f3c1c3",
+        "xl/theme/theme1.xml": "75104b2164c20dab2578383d827deac3a7eec077c3f7c99a4099a551fdebb134",
+        "xl/worksheets/_rels/sheet1.xml.rels": "b99cdda770020e482c5af5ebe23628a036738c72d5bf3a3522861317df9fbe03",
+        "docProps/core.xml": "62e1d5ff3a6b338b14dc40685f312a939671fc268cf3126e9f76ba696c6c044b",
+        "docProps/app.xml": "e0285d0abfbe7e50bc132afc800277f6d2a044305b33d346fbe9fc6a2de59dea"
+      },
+      "base": {
+        "time_ns": [
+          435610200,
+          526182600,
+          1591550800,
+          1533326500,
+          511980500
+        ],
+        "peak_bytes": [
+          23979190,
+          23979264,
+          23979083,
+          23979050,
+          23979352
+        ]
+      },
+      "proposal": {
+        "time_ns": [
+          437347500,
+          636292100,
+          2107396900,
+          1501360500,
+          549243800
+        ],
+        "peak_bytes": [
+          23979320,
+          23979352,
+          23979212,
+          23979303,
+          23979320
+        ]
+      },
+      "masks": [
+        "0xf",
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf"
+      ]
+    },
+    {
+      "rows": 6433,
+      "height": 24,
+      "comments": false,
+      "custom_row": false,
+      "comment_count": 0,
+      "output_sha256": {
+        "[Content_Types].xml": "d922d7af45a35a5613fc4bc66aa64635e127b0c538d7e78b2e028f8b4e23b812",
+        "_rels/.rels": "1285b20099c64699001f9d90ea040ca1c177fa99bc3ae8a841128874820f01a4",
+        "xl/_rels/workbook.xml.rels": "596e47c094f3062e266034ee698571b56b247550b9e1035f0300d54d2f0692b2",
+        "xl/worksheets/sheet1.xml": "283f4ae2c41bc23637bf1e74f164a7b76f288c3a1be9b61adf64c078f896be87",
+        "xl/workbook.xml": "fa7586e82f88251b0010fcbcd3a7c9a4103f8e0129e37121af66a148590cd0fa",
+        "xl/sharedStrings.xml": "130ae3ea93a86cc156a0573246e4997066dc0a5cc9ced47b459fef005f4679bf",
+        "xl/styles.xml": "d8b6235cca449c928a1b73c9ed1478cf91fb42b5752e45d3132664e1c4c47558",
+        "xl/theme/theme1.xml": "75104b2164c20dab2578383d827deac3a7eec077c3f7c99a4099a551fdebb134",
+        "docProps/core.xml": "62e1d5ff3a6b338b14dc40685f312a939671fc268cf3126e9f76ba696c6c044b",
+        "docProps/app.xml": "e0285d0abfbe7e50bc132afc800277f6d2a044305b33d346fbe9fc6a2de59dea"
+      },
+      "base": {
+        "time_ns": [
+          1617820200,
+          1444012900,
+          457867100,
+          453688600,
+          1527270900
+        ],
+        "peak_bytes": [
+          23900716,
+          23900647,
+          23900561,
+          23900700,
+          23900668
+        ]
+      },
+      "proposal": {
+        "time_ns": [
+          1475909600,
+          1487721400,
+          415135000,
+          452604800,
+          1489201200
+        ],
+        "peak_bytes": [
+          23900576,
+          23900495,
+          23900852,
+          23900613,
+          23900577
+        ]
+      },
+      "masks": [
+        "0x300",
+        "0xc00",
+        "0xf",
+        "0xf0",
+        "0x300"
+      ]
+    },
+    {
+      "rows": 6433,
+      "height": 24,
+      "comments": true,
+      "custom_row": true,
+      "comment_count": 333,
+      "output_sha256": {
+        "[Content_Types].xml": "f06d63cc15b2aa24a73334d61b9ef8e20b9c8ea3736de74f1bc1b92cf869f88e",
+        "_rels/.rels": "1285b20099c64699001f9d90ea040ca1c177fa99bc3ae8a841128874820f01a4",
+        "xl/_rels/workbook.xml.rels": "596e47c094f3062e266034ee698571b56b247550b9e1035f0300d54d2f0692b2",
+        "xl/worksheets/sheet1.xml": "52f456edb8892b9236290c74bd164ebdd6d14555af4437773179acef948139b6",
+        "xl/workbook.xml": "fa7586e82f88251b0010fcbcd3a7c9a4103f8e0129e37121af66a148590cd0fa",
+        "xl/drawings/vmlDrawing1.vml": "9d3c29f91a0b4687476632ed9d20e4bcceb0ab68a247edf44c20fe721b4eeb8e",
+        "xl/comments1.xml": "5477b69c16d7a3a83a7f536a6315a272f3858f594e3834a77cb4622d248cff90",
+        "xl/sharedStrings.xml": "130ae3ea93a86cc156a0573246e4997066dc0a5cc9ced47b459fef005f4679bf",
+        "xl/styles.xml": "c7ad07a6e85edd8cc3233248e6c38d5c3e347c088deb7ed3c18371fe15f3c1c3",
+        "xl/theme/theme1.xml": "75104b2164c20dab2578383d827deac3a7eec077c3f7c99a4099a551fdebb134",
+        "xl/worksheets/_rels/sheet1.xml.rels": "b99cdda770020e482c5af5ebe23628a036738c72d5bf3a3522861317df9fbe03",
+        "docProps/core.xml": "62e1d5ff3a6b338b14dc40685f312a939671fc268cf3126e9f76ba696c6c044b",
+        "docProps/app.xml": "e0285d0abfbe7e50bc132afc800277f6d2a044305b33d346fbe9fc6a2de59dea"
+      },
+      "base": {
+        "time_ns": [
+          604727100,
+          594980100,
+          2314626700,
+          1916684600,
+          595497100
+        ],
+        "peak_bytes": [
+          24543328,
+          24543415,
+          24543609,
+          24543301,
+          24543495
+        ]
+      },
+      "proposal": {
+        "time_ns": [
+          560026800,
+          595159300,
+          1937637800,
+          1916477400,
+          620560000
+        ],
+        "peak_bytes": [
+          24543563,
+          24543563,
+          24543467,
+          24543387,
+          24543355
+        ]
+      },
+      "masks": [
+        "0xf",
+        "0xf0",
+        "0x300",
+        "0xc00",
+        "0xf"
+      ]
+    }
+  ],
+  "base_profile": "         3053191 function calls (3053169 primitive calls) in 1.687 seconds\n\n   Ordered by: cumulative time\n   List reduced from 393 to 22 due to restriction <22>\n\n   ncalls  tottime  percall  cumtime  percall filename:lineno(function)\n        1    0.004    0.004    1.683    1.683 C:\\python-algo-candidates\\benchmarks\\xlsxwriter_uniform_rows_probe.py:73(build)\n        1    0.000    0.000    1.105    1.105 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\workbook.py:466(close)\n        1    0.001    0.001    1.105    1.105 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\workbook.py:835(_store_workbook)\n        1    0.000    0.000    0.626    0.626 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\packager.py:136(_create_package)\n     6768    0.007    0.000    0.572    0.000 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\worksheet.py:167(cell_wrapper)\n     6434    0.034    0.000    0.564    0.000 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\worksheet.py:1596(write_row)\n    90076    0.085    0.000    0.529    0.000 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\worksheet.py:581(_write)\n        1    0.000    0.000    0.480    0.480 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\packager.py:189(_write_worksheet_files)\n        1    0.000    0.000    0.480    0.480 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\worksheet.py:5025(_assemble_xml_file)\n        1    0.000    0.000    0.480    0.480 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\worksheet.py:6502(_write_sheet_data)\n        1    0.066    0.066    0.480    0.480 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\worksheet.py:6680(_write_rows)\n    90076    0.110    0.000    0.444    0.000 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\worksheet.py:523(_write_token_as_string)\n        1    0.000    0.000    0.397    0.397 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\workbook.py:1516(_prepare_vml)\n        1    0.001    0.001    0.397    0.397 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\worksheet.py:5872(_prepare_vml_objects)\n      333    0.001    0.000    0.396    0.001 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\worksheet.py:5834(_comment_vertices)\n      333    0.256    0.001    0.394    0.001 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\worksheet.py:5707(_position_object_pixels)\n    89890    0.104    0.000    0.318    0.000 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\worksheet.py:6882(_write_cell)\n    89890    0.152    0.000    0.301    0.000 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\worksheet.py:688(_write_string)\n    89890    0.092    0.000    0.171    0.000 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\xmlwriter.py:109(_xml_string_element)\n  1090325    0.137    0.000    0.137    0.000 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\worksheet.py:5817(_size_row)\n        1    0.000    0.000    0.108    0.108 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\packager.py:300(_write_shared_strings_file)\n        1    0.000    0.000    0.108    0.108 C:\\python-algo-candidates\\XlsxWriter\\xlsxwriter\\sharedstrings.py:43(_assemble_xml_file)\n\n\n"
+}

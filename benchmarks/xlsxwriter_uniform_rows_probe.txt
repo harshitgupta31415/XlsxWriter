@@ -1,0 +1,15 @@
+XlsxWriter uniform-row-height screening
+
+Complete XLSX creation from the pinned taxi dataset, not just positioning.
+Each workbook archive member is compared byte-for-byte outside measurement.
+Synthetic report workflow using real records; not a deployed-application measurement.
+Peak is newly traced Python allocation during creation, not process RAM.
+
+| Rows x columns | Comments | Default height | Custom header height | Base time | Proposed time | Speed | Base peak | Proposed peak | Memory |
+|---|---:|---:|---|---:|---:|---|---:|---:|---|
+| 1000 x 14 | 54 | 24 | False | 237.694 ms | 217.815 ms | 1.091x faster | 3.622 MiB | 3.623 MiB | 1.000x more |
+| 3000 x 14 | 140 | 24 | False | 217.300 ms | 220.299 ms | 1.014x slower | 10.865 MiB | 10.865 MiB | 1.000x more |
+| 6433 x 14 | 333 | 24 | False | 1836.109 ms | 1476.142 ms | 1.244x faster | 23.406 MiB | 23.406 MiB | 1.000x less |
+| 6433 x 14 | 333 | None | False | 526.183 ms | 636.292 ms | 1.209x slower | 22.868 MiB | 22.868 MiB | 1.000x more |
+| 6433 x 14 | 0 | 24 | False | 1444.013 ms | 1475.910 ms | 1.022x slower | 22.793 MiB | 22.793 MiB | 1.000x less |
+| 6433 x 14 | 333 | 24 | True | 604.727 ms | 620.560 ms | 1.026x slower | 23.406 MiB | 23.406 MiB | 1.000x more |
